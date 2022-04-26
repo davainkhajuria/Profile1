@@ -33,7 +33,7 @@
     <h2>@lists</h2>
     <h3>unordered</h3>
     <p> we dont want to show bullets in unordered list so we remove them.</p> 
-    <ul>
+    <ul class="non-bullet-list">
         <li>item one</li>
         <li>item two</li>
         <li>item three</li>
@@ -41,15 +41,15 @@
 
     <h3>inline list</h3>
     <p>instead of going into a new row, we will create a list which will take columns.</p>
-    <ul>
-        <li>inline item one</li>
-        <li>inline item two</li>
-        <li>inline item three</li>
+    <ul class="non-bullet-list">
+        <li class="inline-list-item">inline item one</li>
+        <li class="inline-list-item">inline item two</li>
+        <li class="inline-list-item">inline item three</li>
     </ul>
 
     <h3>reversed ordered lists</h3>
     <p>counting will go reversed for this list</p>
-    <ol>
+    <ol reversed>
         <li>item one</li>
         <li>item two</li>
         <li>item three</li>
@@ -57,20 +57,21 @@
     <hr>
 
     <h2>@navbar</h2>
-    <nav>
-        <div>iamBrand</div>
-        <ul>
-            <li>home</li>
-            <li>projects</li>
-            <li>about</li>
+    <nav class=" navigation container">
+        <div class="brand">iamBrand</div>
+        <ul class="non-bullet-list nav-pills">
+            <li class="inline-list-item a"> <a class="nav-link active-link" href="/">home</a> </li>
+            <li class="inline-list-item a"> <a class="nav-link" href="/">Projects</a> </li>
+            <li class="inline-list-item a"> <a class="nav-link" href="/">about</a> </li>
+          
         </ul>
     </nav>
     <hr>
 
     <h2>@header</h2>
-    <header>
-        <img src="/image/hero.svg" alt="">
-        <h3>heading inside hero</h3>
+    <header class="hero">
+        <img class="hero-img" src="/image/hero.svg" alt="web developer image">
+        <h3 class="hero-heading">Hey! I'm Name the <span class="highlight">Web developer</span></h3>
     </header>
     <hr>
 
