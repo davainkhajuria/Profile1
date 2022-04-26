@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,400;1,700&display=swap');
 :root{
-    --primary-color: #49d6ef;
+    --primary-color: #0284C7;
     --secondary-color: #cfcfcf;
 }
 
@@ -11,10 +11,13 @@ body{
     border: 0;
 }
 .container{
+  
     padding: 1rem 1rem;
 }
 .center-container{
-    max-width: 600px;
+  
+    max-width: 1000px;
+    width: 100%;
     margin: auto;
 }
 hr{
@@ -22,12 +25,13 @@ hr{
 }
 .links{
     text-decoration: none;
-    padding:0.5rem 1rem;
+    padding:0.5rem 1.5rem;
 }
 .primary-link{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    margin-top: 2px;
 }
 .secondary-link{
     color: var(--primary-color);
@@ -45,11 +49,11 @@ hr{
 .navigation{
     background-color: var(--primary-color);
     color: white;
-    border-bottom-left-radius: 1.5rem;
+    border-bottom-left-radius: 2rem;
 }
 .navigation .brand{
     font-weight: bolder;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 .navigation .nav-pills{
     text-align: right;
@@ -59,7 +63,7 @@ hr{
     text-decoration: none;
     margin-right: 2rem;
 }
-.navigation .a :hover{
+.a :hover{
     font-weight: bolder;
     
 }
@@ -67,6 +71,9 @@ hr{
     font-weight: bolder;
     font-size: larger;
 
+}
+.hero{
+    margin-top: 5rem;
 }
 .hero .hero-img{
     max-width: 350px;
@@ -83,17 +90,26 @@ hr{
 
 }
 .sections{
-    padding: 2rem;
+    margin: 6rem 0rem;
+    text-align: center;
+    
+    
 }
+
 .ow{
     background-color: var(--secondary-color);
+}
+.other{
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 2rem;
 }
 .footer{
     text-align: center;
     background-color: var(--primary-color);
     color: white;
     padding: 2rem 1rem;
-    border-top-right-radius: 1.5rem;
+    border-top-right-radius: 2rem;
 
 }
 .footer-links{
