@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,400;1,700&display=swap');
 :root{
     --primary-color: #49d6ef;
+    --secondary-color: #cfcfcf;
 }
 
 body{
@@ -80,4 +81,24 @@ hr{
 .hero .highlight{
     color: var(--primary-color);
 
+}
+.sections{
+    padding: 2rem;
+}
+.ow{
+    background-color: var(--secondary-color);
+}
+.footer{
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem 1rem;
+    border-top-right-radius: 1.5rem;
+
+}
+.footer-links{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
