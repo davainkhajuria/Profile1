@@ -34,10 +34,16 @@ hr{
     color: white;
     margin-top: 2px;
 }
+.primary-link:hover{
+    opacity: 0.7;
+}
 .secondary-link{
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
+}
+.secondary-link:hover{
+    opacity: 0.7;
 }
 .non-bullet-list{
     list-style-type: none;
@@ -54,7 +60,7 @@ hr{
 }
 .navigation .brand{
     font-weight: bolder;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .navigation .nav-pills{
     text-align: right;
@@ -91,7 +97,7 @@ hr{
 
 }
 .sections{
-    margin: 6rem 0rem;
+    margin: 5rem 0rem;
     text-align: center;
     
     
